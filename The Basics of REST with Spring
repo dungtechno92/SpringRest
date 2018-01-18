@@ -1,0 +1,24 @@
+1. Rest là gì?
+  - Representationnal State Tranfer.
+  - a set of contraints. Architecture style to design network-based applications.
+2. Constraint:
+  - Client-server contraint: 
+    + Allow indepentent evolution between client-server.
+  - Stateless constraint: 
+    + Stateless between requests. 
+    + A request should contain all necessary data for Server to complete it. 
+    + All session state is held on the client.
+  - Cache constraint: 
+    + Response are explicity labelled as cacheable or non-cacheable.
+    + Request pass through cache component.
+    + The goal is to macth and leverage the already existing infrastructure of the Web.
+  - The uniform-contract constraint:
+    + A Service and all Clients must share a single uniform technical interface.
+  - The layered-system constraint:
+  - The Code on demand
+3. Terminology:
+  - The Resource is the key abstraction of information in REST. Any information that can be named / identified via a unique, global 
+  id (the URI) - is a Resource.
+  - Any resource can have multiple presentations.
+  - Hypermedia.
+  
