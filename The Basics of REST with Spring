@@ -21,4 +21,8 @@
   id (the URI) - is a Resource.
   - Any resource can have multiple presentations.
   - Hypermedia.
-  
+4. What Is Idempotence ?
+  - Idempotence (/ˌaɪdɨmˈpoʊtəns/) is the property of certain operations in mathematics and computer science, that can be 
+  applied multiple times without changing the result beyond the initial application.
+  - GET, PUT, DELETE are idempotence. but POST is not idempotence.
+*Reference: http://www.restapitutorial.com.
